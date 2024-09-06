@@ -1,0 +1,59 @@
+/* CSS */
+body{
+   background-image:url("gameb1.jpg");
+   background-position: left;
+   background-size: contain;
+   background-origin: border-box;
+   background-repeat: no-repeat;
+   background-color: rgba(234, 228, 234, 0.95);
+}
+#contact {
+   
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+  .contact-card {
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-card form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-card label {
+    /*color: #fff;  blanc */
+    margin-bottom: 20px;
+  }
+  
+  .contact-card input, .contact-card textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .send-btn {
+    background-color: #ffd700; /* doré */
+    color: #000; /* noir */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* animation */
+  }
+  
+  .send-btn:hover {
+    background-color: #ffc107; /* doré clair */
+    transform: scale(1.1); /* animation hover */
+  }
+  
+  .send-btn:active {
+    transform: scale(0.9); /* animation active */
+  }

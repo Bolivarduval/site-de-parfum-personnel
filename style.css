@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #120707; /* blanc */
+}
+.debut{
+    background-image: url(background.jpg);
+    height: 20%;
+}
+
+header {
+    background-color: #1e1a1a; /* noir */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+   
+    padding: 0;
+    display: flex;
+    
+    
+}
+
+nav li {
+    margin-right: 20px;
+    width: 15%;
+}
+
+nav a {
+    color: #edbc1a;
+    text-decoration: none;
+}
+
+h1{
+    color: #edbc1a;
+
+}
+.texte1{
+    position: inherit;
+    margin-left: 7%;
+    width: 50%;
+    text-align: justify;
+    color: #f5f1f1;
+    margin-top: -10%;
+}
+.texte1 h1{
+    text-align: center;
+    padding-right: 40%;
+    font-family: blacker,serif;
+    font-weight: 400;
+}
+#nouss{
+    margin-left:7%;
+    margin-top: 2%;
+}
+#nous{
+    background-color: rgb(35, 29, 29);
+}
+.texte2{
+    margin-left: 7%;
+    width: 60%;
+    color: #fff;
+}
+#img1{
+    width: 600px;
+    height: 800px;
+    margin-left: 50%;
+    margin-top: -15%;
+    
+}
+.made{
+    background-color: #edbc1a;
+    padding-left: 7%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+#nosparfums{
+    background-color: rgb(35, 29, 29);
+}
+#parf{
+    text-align: center;
+}
+.carousel-item active{
+    width: 20%;
+    height: 20%;
+}
+
+
+.parfum-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.parfum {
+    background-color: #201c0d; /* gris foncé */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.parfum img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.parfum h3 {
+    color: #d18f15; /* doré */
+    margin-top: 0;
+}
+
+.parfum p {
+    color: #fff; /* blanc */
+    margin-bottom: 20px;
+}
+.parfum button {
+    background-color: #d18f15; /* doré */
+    color: #000; /* noir */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#video1{
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    margin-top: 9%;
+}
+
+.parfum button:hover {
+    background-color: #ffc107; /* doré clair */
+}
+h2{
+color: #e5c913;
+text-align: center;
+}
+#recommandations p{
+    color: black;
+}
+
+footer {
+    background-color: #000; /* noir */
+    color: #fff; /* blanc */
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
